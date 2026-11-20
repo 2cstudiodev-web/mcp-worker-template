@@ -1,0 +1,10 @@
+{
+  // Rename the Worker, then `npm run deploy`. Your server is at https://<name>.<your-subdomain>.workers.dev/mcp
+  // (or add a custom domain under "routes", e.g. mcp.yourcompany.com).
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-mcp-server",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "observability": { "enabled": true }
+  // Secrets for your own API go in with `npx wrangler secret put NAME` (and in .dev.vars for local dev).
+}

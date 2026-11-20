@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.yourcompany/your-server",
+  "title": "Your Server",
+  "description": "One sentence an agent can act on: what your server lets AI apps do.",
+  "version": "1.0.0",
+  "websiteUrl": "https://yourcompany.com/docs/mcp",
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.yourcompany.com/mcp" }]
+}

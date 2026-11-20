@@ -1,0 +1,19 @@
+{
+  "name": "mcp-worker-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A small, production-shaped remote MCP server on Cloudflare Workers: stateless Streamable HTTP, typed tools with output schemas and annotations, agent-friendly errors.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261116.1",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.162.0"
+  },
+  "license": "MIT"
+}
